@@ -1,6 +1,6 @@
 ---
-# home: true
-# heroImage: \assets\img\hero.png
+home: true
+heroImage: \assets\img\hero.png
 heroText: Hero 标题
 tagline: Hero 副标题
 actionText: 快速上手 →
