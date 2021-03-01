@@ -1,0 +1,19 @@
+{
+  "devDependencies": {
+    "vuepress": "^1.8.2"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs --temp .temp",
+    "docs:build": "vuepress build docs",
+    "deploy": "bash deploy.sh"
+  },
+  "name": "vuePress",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:1227430161/vuePress.git",
+  "author": "1227430161 <1227430161@qq.com>",
+  "license": "MIT",
+  "dependencies": {
+    "moment": "^2.29.1"
+  }
+}
