@@ -12,11 +12,5 @@ features:
   details: 1111111111111111111111
 - title: 明天
   details: 2222222222222222222222
-footer: 张嘉家 | 邮箱：1227430161@qq.com | 微信：zhang5002221999
+footer: 张嘉家 | 邮箱：1227430161@qq.com | 微信：zhang5002221999 |PWA 
 ---
-
-## PWA
-
-为了演示PWA弹窗想过的内容
-注意需要在本地安装vuepress
-yarn add -D vuepress
