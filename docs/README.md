@@ -14,3 +14,9 @@ features:
   details: 2222222222222222222222
 footer: 张嘉家 | 邮箱：1227430161@qq.com | 微信：zhang5002221999
 ---
+
+## PWA
+
+为了演示PWA弹窗想过的内容
+注意需要在本地安装vuepress
+yarn add -D vuepress
