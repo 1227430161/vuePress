@@ -1,18 +1,16 @@
 ---
 home: true
-heroImage: \assets\img\hero.png
-heroText: Hero 标题
-tagline: Hero 副标题
-actionText: 快速上手 →
+heroImage: /assets/img/logo.png
+heroText:  张++的杂七杂八
+tagline: you only live once
+actionText: 过来看看 →
 actionLink: /zh/guide/
 features:
-- title: 简洁至上
-  details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。
-- title: Vue驱动
-  details: 享受 Vue + webpack 的开发体验，在 Markdown 中使用 Vue 组件，同时可以使用 Vue 来开发自定义主题。
-- title: 高性能
-  details: VuePress 为每个页面预渲染生成静态的 HTML，同时在页面被加载的时候，将作为 SPA 运行。
-footer: MIT Licensed | Copyright © 2018-present Evan You
+- title: 昨天
+  details: 0000000000000000000000
+- title: 今天
+  details: 1111111111111111111111
+- title: 明天
+  details: 2222222222222222222222
+footer: 张嘉家 | 邮箱：1227430161@qq.com | 微信：zhang5002221999
 ---
-
-# hello！ VuePress
