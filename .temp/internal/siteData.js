@@ -26,40 +26,66 @@ export const siteData = {
         "name": "keyword",
         "content": "VuePress介绍,VuePress说明,张嘉家个人博客"
       }
+    ],
+    [
+      "link",
+      {
+        "rel": "manifest",
+        "href": "/vuePress/manifest.json"
+      }
+    ],
+    [
+      "meta",
+      {
+        "name": "theme-color",
+        "content": "#3eaf7c"
+      }
+    ],
+    [
+      "meta",
+      {
+        "name": "apple-mobile-web-app-capable",
+        "content": "yes"
+      }
+    ],
+    [
+      "meta",
+      {
+        "name": "apple-mobile-web-app-status-bar-style",
+        "content": "black"
+      }
+    ],
+    [
+      "link",
+      {
+        "rel": "apple-touch-icon",
+        "href": "/vuePress/icons/apple-touch-icon-152x152.png"
+      }
+    ],
+    [
+      "link",
+      {
+        "rel": "mask-icon",
+        "href": "/vuePress/icons/safari-pinned-tab.svg",
+        "color": "#3eaf7c"
+      }
+    ],
+    [
+      "meta",
+      {
+        "name": "msapplication-TileImage",
+        "content": "/icons/msapplication-icon-144x144.png"
+      }
+    ],
+    [
+      "meta",
+      {
+        "name": "msapplication-TileColor",
+        "content": "#000000"
+      }
     ]
   ],
   "pages": [
-    {
-      "title": "Home",
-      "frontmatter": {
-        "home": true,
-        "heroImage": "/assets/img/logo.png",
-        "heroText": "张++的杂七杂八",
-        "tagline": "you only live once",
-        "actionText": "过来看看 →",
-        "actionLink": "/zh/guide/",
-        "features": [
-          {
-            "title": "昨天",
-            "details": 0
-          },
-          {
-            "title": "今天",
-            "details": 1.1111111111111111e+21
-          },
-          {
-            "title": "明天",
-            "details": 2.2222222222222222e+21
-          }
-        ],
-        "footer": "张嘉家 | 邮箱：1227430161@qq.com | 微信：zhang5002221999"
-      },
-      "regularPath": "/",
-      "relativePath": "README.md",
-      "key": "v-1b6c7da9",
-      "path": "/",
-      "lastUpdated": "Monday, March 1, 2021 6:20 PM"
-    },
     {
       "title": "about3",
       "frontmatter": {
@@ -114,57 +140,35 @@ export const siteData = {
       "lastUpdated": "Monday, March 1, 2021 4:42 PM"
     },
     {
-      "title": "关于我",
+      "title": "Home",
       "frontmatter": {
-        "title": "关于我"
+        "home": true,
+        "heroImage": "/assets/img/logo.png",
+        "heroText": "张++的杂七杂八",
+        "tagline": "you only live once",
+        "actionText": "过来看看 →",
+        "actionLink": "/zh/guide/",
+        "features": [
+          {
+            "title": "昨天",
+            "details": 0
+          },
+          {
+            "title": "今天",
+            "details": 1.1111111111111111e+21
+          },
+          {
+            "title": "明天",
+            "details": 2.2222222222222222e+21
+          }
+        ],
+        "footer": "张嘉家 | 邮箱：1227430161@qq.com | 微信：zhang5002221999"
       },
-      "regularPath": "/about.html",
-      "relativePath": "about.md",
-      "key": "v-d810321c",
-      "path": "/about.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "标题一",
-          "slug": "标题一"
-        },
-        {
-          "level": 3,
-          "title": "标题1",
-          "slug": "标题1"
-        },
-        {
-          "level": 3,
-          "title": "标题2",
-          "slug": "标题2"
-        },
-        {
-          "level": 3,
-          "title": "标题3",
-          "slug": "标题3"
-        },
-        {
-          "level": 2,
-          "title": "标题二",
-          "slug": "标题二"
-        },
-        {
-          "level": 3,
-          "title": "标题1",
-          "slug": "标题1-2"
-        },
-        {
-          "level": 3,
-          "title": "标题2",
-          "slug": "标题2-2"
-        },
-        {
-          "level": 3,
-          "title": "标题3",
-          "slug": "标题3-2"
-        }
-      ],
-      "lastUpdated": "Monday, March 1, 2021 4:42 PM"
+      "regularPath": "/",
+      "relativePath": "README.md",
+      "key": "v-1b6c7da9",
+      "path": "/",
+      "lastUpdated": "Friday, March 5, 2021 9:25 PM"
     },
     {
       "title": "关于我1",
@@ -288,85 +292,6 @@ export const siteData = {
       "lastUpdated": "Monday, March 1, 2021 4:42 PM"
     },
     {
-      "title": "CSS a",
-      "frontmatter": {
-        "title": "CSS a"
-      },
-      "regularPath": "/css/",
-      "relativePath": "css/README.md",
-      "key": "v-0e24e62e",
-      "path": "/css/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "你好 CSS",
-          "slug": "你好-css"
-        }
-      ],
-      "lastUpdated": "Monday, March 1, 2021 4:42 PM"
-    },
-    {
-      "title": "c-ccc",
-      "frontmatter": {
-        "title": "c-ccc"
-      },
-      "regularPath": "/css/c-ccc.html",
-      "relativePath": "css/c-ccc.md",
-      "key": "v-11db01a5",
-      "path": "/css/c-ccc.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "二级标题1",
-          "slug": "二级标题1"
-        },
-        {
-          "level": 3,
-          "title": "三级标题1",
-          "slug": "三级标题1"
-        },
-        {
-          "level": 3,
-          "title": "三级标题2",
-          "slug": "三级标题2"
-        },
-        {
-          "level": 2,
-          "title": "二级标题2",
-          "slug": "二级标题2"
-        },
-        {
-          "level": 3,
-          "title": "三级标题1",
-          "slug": "三级标题1-2"
-        },
-        {
-          "level": 3,
-          "title": "三级标题2",
-          "slug": "三级标题2-2"
-        }
-      ],
-      "lastUpdated": "Monday, March 1, 2021 4:42 PM"
-    },
-    {
-      "title": "JavaScript",
-      "frontmatter": {
-        "title": "JavaScript"
-      },
-      "regularPath": "/javascript/",
-      "relativePath": "javascript/README.md",
-      "key": "v-4ea176a8",
-      "path": "/javascript/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "你好 JavaScript",
-          "slug": "你好-javascript"
-        }
-      ],
-      "lastUpdated": "Monday, March 1, 2021 4:42 PM"
-    },
-    {
       "title": "测试",
       "frontmatter": {
         "title": "测试"
@@ -420,14 +345,67 @@ export const siteData = {
       "lastUpdated": "Monday, March 1, 2021 4:42 PM"
     },
     {
-      "title": "j-aaa",
+      "title": "关于我",
       "frontmatter": {
-        "title": "j-aaa"
+        "title": "关于我"
       },
-      "regularPath": "/javascript/j-aaa.html",
-      "relativePath": "javascript/j-aaa.md",
-      "key": "v-131ec7f3",
-      "path": "/javascript/j-aaa.html",
+      "regularPath": "/about.html",
+      "relativePath": "about.md",
+      "key": "v-d810321c",
+      "path": "/about.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "标题一",
+          "slug": "标题一"
+        },
+        {
+          "level": 3,
+          "title": "标题1",
+          "slug": "标题1"
+        },
+        {
+          "level": 3,
+          "title": "标题2",
+          "slug": "标题2"
+        },
+        {
+          "level": 3,
+          "title": "标题3",
+          "slug": "标题3"
+        },
+        {
+          "level": 2,
+          "title": "标题二",
+          "slug": "标题二"
+        },
+        {
+          "level": 3,
+          "title": "标题1",
+          "slug": "标题1-2"
+        },
+        {
+          "level": 3,
+          "title": "标题2",
+          "slug": "标题2-2"
+        },
+        {
+          "level": 3,
+          "title": "标题3",
+          "slug": "标题3-2"
+        }
+      ],
+      "lastUpdated": "Monday, March 1, 2021 4:42 PM"
+    },
+    {
+      "title": "c-bbb",
+      "frontmatter": {
+        "title": "c-bbb"
+      },
+      "regularPath": "/css/c-bbb.html",
+      "relativePath": "css/c-bbb.md",
+      "key": "v-9d0cd976",
+      "path": "/css/c-bbb.html",
       "headers": [
         {
           "level": 2,
@@ -463,14 +441,57 @@ export const siteData = {
       "lastUpdated": "Monday, March 1, 2021 4:42 PM"
     },
     {
-      "title": "c-bbb",
+      "title": "c-ccc",
       "frontmatter": {
-        "title": "c-bbb"
+        "title": "c-ccc"
       },
-      "regularPath": "/css/c-bbb.html",
-      "relativePath": "css/c-bbb.md",
-      "key": "v-9d0cd976",
-      "path": "/css/c-bbb.html",
+      "regularPath": "/css/c-ccc.html",
+      "relativePath": "css/c-ccc.md",
+      "key": "v-11db01a5",
+      "path": "/css/c-ccc.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "二级标题1",
+          "slug": "二级标题1"
+        },
+        {
+          "level": 3,
+          "title": "三级标题1",
+          "slug": "三级标题1"
+        },
+        {
+          "level": 3,
+          "title": "三级标题2",
+          "slug": "三级标题2"
+        },
+        {
+          "level": 2,
+          "title": "二级标题2",
+          "slug": "二级标题2"
+        },
+        {
+          "level": 3,
+          "title": "三级标题1",
+          "slug": "三级标题1-2"
+        },
+        {
+          "level": 3,
+          "title": "三级标题2",
+          "slug": "三级标题2-2"
+        }
+      ],
+      "lastUpdated": "Monday, March 1, 2021 4:42 PM"
+    },
+    {
+      "title": "j-aaa",
+      "frontmatter": {
+        "title": "j-aaa"
+      },
+      "regularPath": "/javascript/j-aaa.html",
+      "relativePath": "javascript/j-aaa.md",
+      "key": "v-131ec7f3",
+      "path": "/javascript/j-aaa.html",
       "headers": [
         {
           "level": 2,
@@ -603,6 +624,42 @@ export const siteData = {
           "level": 2,
           "title": "这是测试页面1",
           "slug": "这是测试页面1"
+        }
+      ],
+      "lastUpdated": "Monday, March 1, 2021 4:42 PM"
+    },
+    {
+      "title": "CSS a",
+      "frontmatter": {
+        "title": "CSS a"
+      },
+      "regularPath": "/css/",
+      "relativePath": "css/README.md",
+      "key": "v-0e24e62e",
+      "path": "/css/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "你好 CSS",
+          "slug": "你好-css"
+        }
+      ],
+      "lastUpdated": "Monday, March 1, 2021 4:42 PM"
+    },
+    {
+      "title": "JavaScript",
+      "frontmatter": {
+        "title": "JavaScript"
+      },
+      "regularPath": "/javascript/",
+      "relativePath": "javascript/README.md",
+      "key": "v-4ea176a8",
+      "path": "/javascript/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "你好 JavaScript",
+          "slug": "你好-javascript"
         }
       ],
       "lastUpdated": "Monday, March 1, 2021 4:42 PM"
