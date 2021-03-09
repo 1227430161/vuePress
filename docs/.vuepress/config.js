@@ -33,17 +33,17 @@ module.exports = {
           buttonText: "刷新"
         }
       },
-      '@vssue/vuepress-plugin-vssue': {
-        // 设置 `platform` 而不是 `api`
-        platform: 'github-v4',
+      // '@vssue/vuepress-plugin-vssue': {
+      //   // 设置 `platform` 而不是 `api`
+      //   platform: 'github-v4',
 
-        // 其他的 Vssue 配置
-        owner: '1227430161',
-        repo: 'vuePress',
-        clientId: '26e927f6d0d5325e0169',
-        clientSecret: '00e17364019d320659870f3c745373b95bade54e',
-        autoCreateIssue: true
-      },
+      //   // 其他的 Vssue 配置
+      //   owner: '1227430161',
+      //   repo: 'vuePress',
+      //   clientId: '26e927f6d0d5325e0169',
+      //   clientSecret: '00e17364019d320659870f3c745373b95bade54e',
+      //   autoCreateIssue: true
+      // },
     },
 
     //插件要放在themeConfig外面
