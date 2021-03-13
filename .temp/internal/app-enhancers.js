@@ -5,6 +5,7 @@ import m3 from "D:\\vuePress\\vuePress\\.temp\\app-enhancers\\1.js"
 import m4 from "D:\\vuePress\\vuePress\\.temp\\app-enhancers\\2.js"
 import m5 from "D:\\vuePress\\vuePress\\.temp\\app-enhancers\\3.js"
 import m6 from "D:\\vuePress\\vuePress\\.temp\\app-enhancers\\4.js"
+import m7 from "D:\\vuePress\\vuePress\\.temp\\app-enhancers\\5.js"
 
 export default [
   m0,
@@ -13,5 +14,6 @@ export default [
   m3,
   m4,
   m5,
-  m6
+  m6,
+  m7
 ]

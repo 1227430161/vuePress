@@ -33,6 +33,10 @@ module.exports = {
           buttonText: "刷新"
         }
       },
+      '@vuepress/back-to-top': true,
+      '@vuepress/google-analytics':{
+        'ga': 'G-007FBK7MRD'
+      }
       // '@vssue/vuepress-plugin-vssue': {
       //   // 设置 `platform` 而不是 `api`
       //   platform: 'github-v4',

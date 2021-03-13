@@ -87,35 +87,128 @@ export const siteData = {
   ],
   "pages": [
     {
-      "title": "Home",
+      "title": "关于我",
       "frontmatter": {
-        "home": true,
-        "heroImage": "/assets/img/logo.png",
-        "heroText": "张++的杂七杂八",
-        "tagline": "you only live once",
-        "actionText": "过来看看 →",
-        "actionLink": "/zh/guide/",
-        "features": [
-          {
-            "title": "昨天",
-            "details": 0
-          },
-          {
-            "title": "今天",
-            "details": 1.1111111111111111e+21
-          },
-          {
-            "title": "明天",
-            "details": 2.2222222222222222e+21
-          }
-        ],
-        "footer": "张嘉家 | 邮箱：1227430161@qq.com | 微信：zhang5002221999"
+        "title": "关于我"
       },
-      "regularPath": "/",
-      "relativePath": "README.md",
-      "key": "v-1b6c7da9",
-      "path": "/",
-      "lastUpdated": "Friday, March 5, 2021 10:47 PM"
+      "regularPath": "/about.html",
+      "relativePath": "about.md",
+      "key": "v-d810321c",
+      "path": "/about.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "标题一",
+          "slug": "标题一"
+        },
+        {
+          "level": 3,
+          "title": "标题1",
+          "slug": "标题1"
+        },
+        {
+          "level": 3,
+          "title": "标题2",
+          "slug": "标题2"
+        },
+        {
+          "level": 3,
+          "title": "标题3",
+          "slug": "标题3"
+        },
+        {
+          "level": 2,
+          "title": "标题二",
+          "slug": "标题二"
+        },
+        {
+          "level": 3,
+          "title": "标题1",
+          "slug": "标题1-2"
+        },
+        {
+          "level": 3,
+          "title": "标题2",
+          "slug": "标题2-2"
+        },
+        {
+          "level": 3,
+          "title": "标题3",
+          "slug": "标题3-2"
+        }
+      ],
+      "lastUpdated": "Tuesday, March 9, 2021 8:04 AM"
+    },
+    {
+      "title": "about3",
+      "frontmatter": {
+        "title": "about3"
+      },
+      "regularPath": "/about3.html",
+      "relativePath": "about3.md",
+      "key": "v-c8078d1c",
+      "path": "/about3.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "标题一",
+          "slug": "标题一"
+        },
+        {
+          "level": 3,
+          "title": "标题1",
+          "slug": "标题1"
+        },
+        {
+          "level": 3,
+          "title": "标题2",
+          "slug": "标题2"
+        },
+        {
+          "level": 3,
+          "title": "标题3",
+          "slug": "标题3"
+        },
+        {
+          "level": 2,
+          "title": "标题二",
+          "slug": "标题二"
+        },
+        {
+          "level": 3,
+          "title": "标题1",
+          "slug": "标题1-2"
+        },
+        {
+          "level": 3,
+          "title": "标题2",
+          "slug": "标题2-2"
+        },
+        {
+          "level": 3,
+          "title": "标题3",
+          "slug": "标题3-2"
+        }
+      ],
+      "lastUpdated": "Monday, March 1, 2021 4:42 PM"
+    },
+    {
+      "title": "CSS a",
+      "frontmatter": {
+        "title": "CSS a"
+      },
+      "regularPath": "/css/",
+      "relativePath": "css/README.md",
+      "key": "v-0e24e62e",
+      "path": "/css/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "你好 CSS",
+          "slug": "你好-css"
+        }
+      ],
+      "lastUpdated": "Monday, March 1, 2021 4:42 PM"
     },
     {
       "title": "关于我1",
@@ -196,67 +289,57 @@ export const siteData = {
       "lastUpdated": "Friday, March 5, 2021 10:47 PM"
     },
     {
-      "title": "关于我",
+      "title": "c-bbb",
       "frontmatter": {
-        "title": "关于我"
+        "title": "c-bbb"
       },
-      "regularPath": "/about.html",
-      "relativePath": "about.md",
-      "key": "v-d810321c",
-      "path": "/about.html",
+      "regularPath": "/css/c-bbb.html",
+      "relativePath": "css/c-bbb.md",
+      "key": "v-9d0cd976",
+      "path": "/css/c-bbb.html",
       "headers": [
         {
           "level": 2,
-          "title": "标题一",
-          "slug": "标题一"
+          "title": "二级标题1",
+          "slug": "二级标题1"
         },
         {
           "level": 3,
-          "title": "标题1",
-          "slug": "标题1"
+          "title": "三级标题1",
+          "slug": "三级标题1"
         },
         {
           "level": 3,
-          "title": "标题2",
-          "slug": "标题2"
-        },
-        {
-          "level": 3,
-          "title": "标题3",
-          "slug": "标题3"
+          "title": "三级标题2",
+          "slug": "三级标题2"
         },
         {
           "level": 2,
-          "title": "标题二",
-          "slug": "标题二"
+          "title": "二级标题2",
+          "slug": "二级标题2"
         },
         {
           "level": 3,
-          "title": "标题1",
-          "slug": "标题1-2"
+          "title": "三级标题1",
+          "slug": "三级标题1-2"
         },
         {
           "level": 3,
-          "title": "标题2",
-          "slug": "标题2-2"
-        },
-        {
-          "level": 3,
-          "title": "标题3",
-          "slug": "标题3-2"
+          "title": "三级标题2",
+          "slug": "三级标题2-2"
         }
       ],
       "lastUpdated": "Monday, March 1, 2021 4:42 PM"
     },
     {
-      "title": "c-aaa",
+      "title": "c-ccc",
       "frontmatter": {
-        "title": "c-aaa"
+        "title": "c-ccc"
       },
-      "regularPath": "/css/c-aaa.html",
-      "relativePath": "css/c-aaa.md",
-      "key": "v-511824e5",
-      "path": "/css/c-aaa.html",
+      "regularPath": "/css/c-ccc.html",
+      "relativePath": "css/c-ccc.md",
+      "key": "v-11db01a5",
+      "path": "/css/c-ccc.html",
       "headers": [
         {
           "level": 2,
@@ -345,171 +428,14 @@ export const siteData = {
       "lastUpdated": "Monday, March 1, 2021 4:42 PM"
     },
     {
-      "title": "about3",
+      "title": "c-aaa",
       "frontmatter": {
-        "title": "about3"
+        "title": "c-aaa"
       },
-      "regularPath": "/about3.html",
-      "relativePath": "about3.md",
-      "key": "v-c8078d1c",
-      "path": "/about3.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "标题一",
-          "slug": "标题一"
-        },
-        {
-          "level": 3,
-          "title": "标题1",
-          "slug": "标题1"
-        },
-        {
-          "level": 3,
-          "title": "标题2",
-          "slug": "标题2"
-        },
-        {
-          "level": 3,
-          "title": "标题3",
-          "slug": "标题3"
-        },
-        {
-          "level": 2,
-          "title": "标题二",
-          "slug": "标题二"
-        },
-        {
-          "level": 3,
-          "title": "标题1",
-          "slug": "标题1-2"
-        },
-        {
-          "level": 3,
-          "title": "标题2",
-          "slug": "标题2-2"
-        },
-        {
-          "level": 3,
-          "title": "标题3",
-          "slug": "标题3-2"
-        }
-      ],
-      "lastUpdated": "Monday, March 1, 2021 4:42 PM"
-    },
-    {
-      "title": "CSS a",
-      "frontmatter": {
-        "title": "CSS a"
-      },
-      "regularPath": "/css/",
-      "relativePath": "css/README.md",
-      "key": "v-0e24e62e",
-      "path": "/css/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "你好 CSS",
-          "slug": "你好-css"
-        }
-      ],
-      "lastUpdated": "Monday, March 1, 2021 4:42 PM"
-    },
-    {
-      "title": "c-ccc",
-      "frontmatter": {
-        "title": "c-ccc"
-      },
-      "regularPath": "/css/c-ccc.html",
-      "relativePath": "css/c-ccc.md",
-      "key": "v-11db01a5",
-      "path": "/css/c-ccc.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "二级标题1",
-          "slug": "二级标题1"
-        },
-        {
-          "level": 3,
-          "title": "三级标题1",
-          "slug": "三级标题1"
-        },
-        {
-          "level": 3,
-          "title": "三级标题2",
-          "slug": "三级标题2"
-        },
-        {
-          "level": 2,
-          "title": "二级标题2",
-          "slug": "二级标题2"
-        },
-        {
-          "level": 3,
-          "title": "三级标题1",
-          "slug": "三级标题1-2"
-        },
-        {
-          "level": 3,
-          "title": "三级标题2",
-          "slug": "三级标题2-2"
-        }
-      ],
-      "lastUpdated": "Monday, March 1, 2021 4:42 PM"
-    },
-    {
-      "title": "c-bbb",
-      "frontmatter": {
-        "title": "c-bbb"
-      },
-      "regularPath": "/css/c-bbb.html",
-      "relativePath": "css/c-bbb.md",
-      "key": "v-9d0cd976",
-      "path": "/css/c-bbb.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "二级标题1",
-          "slug": "二级标题1"
-        },
-        {
-          "level": 3,
-          "title": "三级标题1",
-          "slug": "三级标题1"
-        },
-        {
-          "level": 3,
-          "title": "三级标题2",
-          "slug": "三级标题2"
-        },
-        {
-          "level": 2,
-          "title": "二级标题2",
-          "slug": "二级标题2"
-        },
-        {
-          "level": 3,
-          "title": "三级标题1",
-          "slug": "三级标题1-2"
-        },
-        {
-          "level": 3,
-          "title": "三级标题2",
-          "slug": "三级标题2-2"
-        }
-      ],
-      "lastUpdated": "Monday, March 1, 2021 4:42 PM"
-    },
-    {
-      "title": "j-aaa",
-      "frontmatter": {
-        "title": "j-aaa"
-      },
-      "regularPath": "/javascript/j-aaa.html",
-      "relativePath": "javascript/j-aaa.md",
-      "key": "v-131ec7f3",
-      "path": "/javascript/j-aaa.html",
+      "regularPath": "/css/c-aaa.html",
+      "relativePath": "css/c-aaa.md",
+      "key": "v-511824e5",
+      "path": "/css/c-aaa.html",
       "headers": [
         {
           "level": 2,
@@ -563,6 +489,80 @@ export const siteData = {
       "lastUpdated": "Monday, March 1, 2021 4:42 PM"
     },
     {
+      "title": "Home",
+      "frontmatter": {
+        "home": true,
+        "heroImage": "/assets/img/logo.png",
+        "heroText": "张++的杂七杂八",
+        "tagline": "生有热烈，藏于俗常",
+        "actionText": "过来看看 →",
+        "actionLink": "/zh/guide/",
+        "features": [
+          {
+            "title": "把所有的不快给昨天",
+            "details": "一间房子，离开了群楼，在空中独自行动，蓝幽幽的街在下边游泳，我们坐在楼板上，我们挺喜欢楼板，我们互相看着，我们挺喜欢看着，一个人活过，一个人在海边活过，我想那海一定清凉极了，海底散放着带齿的银币，我想那海一定清凉极了，椰子就喜欢海水，房子是木头做的，用光拖住黑暗，在一束光中生活多久，是什么落在地上，你很美，想我一样，你很美，想我一样，空楼板在南方上空响着"
+          },
+          {
+            "title": "把所有的努力给今天",
+            "details": "从三角洲来的雷电，我被焚烧了，我无法吐出焰火，通红的树在海上飘着，我无法吐出有毒的焰火，海很难，海漏着白白的牙齿，有一页书，始终没有合上，你知道，雨里有一种清香，有时，呼吸会使水加重，那银闪闪巨大的愿望，那银闪闪几乎垂落的愿望，有一页书正在合上，我握着你的手，你始终存在，沾满砂砾的手始终存在，太平洋上的蜂群始终存在，从这一岸到那一岸，你始终存在，风在公海上嗡嗡飞着"
+          },
+          {
+            "title": "把所有的希望给明天",
+            "details": "门大大打开了，门装在墙上，细小的精灵飞舞起来，外边没有人，一层层屋顶，雨在记忆中走着，远处的灯把你照耀，我看见椰子壳在海上漂，我剖开过椰子，我渴望被海剖开，我流着新鲜洁白的汁液，我到达过一个河口，那里有鸟和背着身的石像，河神带着鸟游来游去，我在雨中无声的祈祷，我的爱把你环绕我听见钟声在返回圣地，浅浅的大理石上现出花纹，浅浅的大理石的花纹 ，浅浅的大理石的花纹 ，我用生命看见"
+          }
+        ],
+        "footer": "张嘉家 | 邮箱：1227430161@qq.com | 微信：zhang5002221999"
+      },
+      "regularPath": "/",
+      "relativePath": "README.md",
+      "key": "v-1b6c7da9",
+      "path": "/",
+      "lastUpdated": "Friday, March 5, 2021 10:47 PM"
+    },
+    {
+      "title": "j-aaa",
+      "frontmatter": {
+        "title": "j-aaa"
+      },
+      "regularPath": "/javascript/j-aaa.html",
+      "relativePath": "javascript/j-aaa.md",
+      "key": "v-131ec7f3",
+      "path": "/javascript/j-aaa.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "二级标题1",
+          "slug": "二级标题1"
+        },
+        {
+          "level": 3,
+          "title": "三级标题1",
+          "slug": "三级标题1"
+        },
+        {
+          "level": 3,
+          "title": "三级标题2",
+          "slug": "三级标题2"
+        },
+        {
+          "level": 2,
+          "title": "二级标题2",
+          "slug": "二级标题2"
+        },
+        {
+          "level": 3,
+          "title": "三级标题1",
+          "slug": "三级标题1-2"
+        },
+        {
+          "level": 3,
+          "title": "三级标题2",
+          "slug": "三级标题2-2"
+        }
+      ],
+      "lastUpdated": "Monday, March 1, 2021 4:42 PM"
+    },
+    {
       "title": "j-bbb",
       "frontmatter": {
         "title": "j-bbb"
@@ -604,6 +604,22 @@ export const siteData = {
         }
       ],
       "lastUpdated": "Monday, March 1, 2021 4:42 PM"
+    },
+    {
+      "title": "这是测试页面1",
+      "frontmatter": {},
+      "regularPath": "/test1.html",
+      "relativePath": "test1.md",
+      "key": "v-4ef3da9c",
+      "path": "/test1.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "这是测试页面1",
+          "slug": "这是测试页面1"
+        }
+      ],
+      "lastUpdated": "Tuesday, March 9, 2021 8:17 AM"
     },
     {
       "title": "j-ccc",
@@ -665,20 +681,14 @@ export const siteData = {
       "lastUpdated": "Monday, March 1, 2021 4:42 PM"
     },
     {
-      "title": "这是测试页面1",
-      "frontmatter": {},
-      "regularPath": "/test1.html",
-      "relativePath": "test1.md",
-      "key": "v-4ef3da9c",
-      "path": "/test1.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "这是测试页面1",
-          "slug": "这是测试页面1"
-        }
-      ],
-      "lastUpdated": "Monday, March 1, 2021 4:42 PM"
+      "title": "劝学",
+      "frontmatter": {
+        "title": "劝学"
+      },
+      "regularPath": "/quanxue.html",
+      "relativePath": "quanxue.md",
+      "key": "v-36f6cff2",
+      "path": "/quanxue.html"
     }
   ],
   "themeConfig": {
